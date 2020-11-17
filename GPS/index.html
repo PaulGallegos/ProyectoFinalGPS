@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecNM Tepic</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="sticky">
+        <nav id="NavPrincipal" ><!--barra de navegación principal-->
+            <ul id="ListaPrincipal">
+                <img id="ImgTecnm" src="tecnm.png">
+                <li class="navega"><a class="nav" href="#Eventos">INICIO</a></li>
+                <li class="navega"><a class="nav" href="#OE">OFERTA EDUCATIVA</a> </li>
+                <li class="navega"><a class="nav" href="#">GALERIA</a></li>
+                <li class="navega"><a class="nav" href="#">PREGUNTAS</a></li>
+                <li class="navega"><a class="nav" href="#">CONTÁCTANOS</a></li>
+                <img id="imgTectepic" src="tectepic.webp">
+                <br>
+                <li class="navega">SOLICITUDES
+                <section id="btnAR">
+                    <button>Solicitar test vocacional</button>
+                    <button>Información sobre becas</button>
+                    <button>Solicitar una visita a la institución</button>    
+                </section></li>
+            </ul>
+           
+        </nav>
+    </div>
+    <div>
+        <!---->
+        <main id="principal">
+            <div>
+            <section>
+                <h1 id="Eventos">Eventos</h1>
+                <!--Aqui va un carrusel de eventos generales-->
+                <ul class="slider">
+                    <li class="imgS" id="slide1"><img src="img1.jpg"></li>
+                    <li class="imgS" id="slide2"><img src="img2.jpg"></li>
+                    <li class="imgS" id="slide3"><img src="img3.jpg"></li>
+                    <li class="imgS" id="slide4"><img src="img4.jpg"></li>
+                    <li class="imgS" id="slide5"><img src="img5.jpg"></li>
+                 </ul>
+                 <br><br><br><br><br><br><br><br>
+                 <nav id="navMenu">
+                    <ul class="menu">
+                        <li><a class="btnEventos" href="#slide1">Diapositiva 1</a></li>
+                        <li><a class="btnEventos" href="#slide2">Diapositiva 2</a></li>
+                        <li><a class="btnEventos" href="#slide3">Diapositiva 3</a></li>
+                        <li><a class="btnEventos" href="#slide4">Diapositiva 4</a></li>
+                        <li><a class="btnEventos" href="#slide5">Diapositiva 5</a></li>
+                </ul>
+                </nav>
+            </section>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div>
+            <section id="BotonesOE">
+                <h1 id="OE">Oferta educativa</h1>
+                <form>
+                    <select id="OESelect" multiple>
+                        <option value="1">Arquitectura</option>
+                        <option value="4">Ingenieria Bioquimica</option>
+                        <option value="2">Ingenieria Civil</option>
+                        <option value="3">Ingenieria Electrica</option>
+                        <option value="5">Ingenieria en Sistemas Computacionales</option>
+                        <option value="6">Ingenieria Industrial</option>
+                        <option value="7">Ingenieria Mecatronica</option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                    </select>
+                </form>
+            </section>
+            <br>
+            <section id="InfoOE">
+                <!--Sección general para mostrar información de cada una de las carreras-->
+                <h2 id="OEcarrera">Arquitectura</h1>
+                    <h3>Actividades recientes</h3>
+                    <p id="OETextoActividad">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, commodi nostrum reiciendis temporibus fuga odit eaque ratione suscipit in quidem.</p>
+                    <!--Aqui va un carrusel de eventos por carrera-->
+                    <h3>Información acerca de la carrera</h3>
+                    <p id="OETextoInfo">El arquitecto es un profesional con amplias perspectivas laborales. Puede desarrollarse en dos grandes sectores, tanto en el público como en el privado, en trabajo con inversionistas, productores urbanos y turísticos y en pequeñas industrias y comercios. Puede ejercer su profesión en puestos de trabajo como proyectistas (espacios interiores y exteriores, elementos y estructuras arquitectónicas, en áreas rural y urbana) y constructor (coordinador, administrador y promotor de obras).</p>
+                    <a id="OELinkDetalles" href="https://www.tepic.tecnm.mx/ofertaeducativa/licenciatura/arq">Mostrar información más detallada</a>
+             </section>
+            </div>
+        </main>
+        <footer >
+            <img id="logoGob" src="logoGob.png">
+            <p>&copy;Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
